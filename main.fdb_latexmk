@@ -1,14 +1,14 @@
 # Fdb version 4
-["biber main"] 1735300631.4262 "main.bcf" "main.bbl" "main" 1735300642.93041 0
+["biber main"] 1735300631.4262 "main.bcf" "main.bbl" "main" 1735302935.04636 0
   "aqc.bib" 1735300631.20149 61756 8e0959fef69656a1cea2b997200a96a3 ""
-  "main.bcf" 1735300642.7337 111295 af9bf68ae7ca94144e65f060fa660a28 "pdflatex"
+  "main.bcf" 1735302934.85204 111295 af9bf68ae7ca94144e65f060fa660a28 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1735300639.5365 "/home/jkr/tqc_seminar/adcqc/main.tex" "main.pdf" "main" 1735300642.93081 0
+["pdflatex"] 1735302931.66576 "/home/jkr/tqc_seminar/adcqc/main.tex" "main.pdf" "main" 1735302935.04676 0
   "/etc/texmf/web2c/texmf.cnf" 1716649545.53339 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/jkr/tqc_seminar/adcqc/main.tex" 1735300636.91759 53053 decdf772e5f74eeca9eb3e8a1884127d ""
+  "/home/jkr/tqc_seminar/adcqc/main.tex" 1735302931.44796 53039 140a2d762d1b6a4e8812f977ce89c799 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1136768653 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -421,11 +421,11 @@
   "_minted-main/C7C41F1159094AF23FF563ED5273F944541C68F80C6A6F06151AFD63BAE50EBC.pygtex" 1735300219.37847 80 dc03549d9ba89ce1555124cd8696fcd7 ""
   "_minted-main/default.pygstyle" 1735300219.37847 6428 74aba51736a5bc6590f8f7dd413c6f27 ""
   "header.tex" 1735300219.37647 7678 9c365d81f61aebfa646dc4077768d0d0 ""
-  "main.aux" 1735300642.7217 12505 4825cd7b4b13a05e1856026f4adac553 "pdflatex"
+  "main.aux" 1735302934.84004 12505 4825cd7b4b13a05e1856026f4adac553 "pdflatex"
   "main.bbl" 1735300632.61251 118446 bbcfcee1d4a8481f3e8842e4fb2d3f21 "biber main"
-  "main.out" 1735300642.7257 2629 2d727aef5e774a16b6cc8eec7570f699 "pdflatex"
-  "main.run.xml" 1735300642.7347 2304 2cffb740e147639141a4f02327ce430f "pdflatex"
-  "main.tex" 1735300636.91759 53053 decdf772e5f74eeca9eb3e8a1884127d ""
+  "main.out" 1735302934.84404 2629 2d727aef5e774a16b6cc8eec7570f699 "pdflatex"
+  "main.run.xml" 1735302934.85304 2304 2cffb740e147639141a4f02327ce430f "pdflatex"
+  "main.tex" 1735302931.44796 53039 140a2d762d1b6a4e8812f977ce89c799 ""
   (generated)
   "main.aux"
   "main.bcf"

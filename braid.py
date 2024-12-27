@@ -1,18 +1,15 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from bgc import bgc_decompose
 
 phi = (1 + np.sqrt(5)) / 2
 phi_inv = phi**(-1)
 
 B1 = np.array([
-    #[np.exp(3j * np.pi / 5), 0, 0],
     [np.exp(-4j * np.pi / 5), 0],
     [0, np.exp(3j * np.pi / 5)]
 ])
 
 B2 = np.array([
-    #[np.exp(3j * np.pi / 5), 0, 0],
     [
         phi**(-1) * np.exp(4j * np.pi / 5),
         phi**(-1 / 2) * np.exp(-3j * np.pi / 5)
@@ -25,8 +22,8 @@ B2_inv = np.linalg.inv(B2)
 
 gate_set = [B1, B2, B1_inv, B2_inv]
 
-
 def brute_force_search(U_target, M, depth, state, min, min_state):
+  """Brute forces braids of length depth over gate_set"""
   if (depth == 0):
     res = norm(U_target, M)
     if (res < min):
@@ -45,21 +42,8 @@ def brute_force_search(U_target, M, depth, state, min, min_state):
   return min, min_state
 
 
-def solovayKitaev(U, depth):
-  if (depth == 0):
-    return U
-  else:
-    U_n_1 = solovayKitaev(U, depth - 1)
-    Delta = U @ U_n_1.conj().T
-    V, W = bgc_decompose(Delta)
-    V_n_1 = solovayKitaev(V, depth - 1)
-    W_n_1 = solovayKitaev(W, depth - 1)
-    U_n = (V_n_1 @ W_n_1 @ V_n_1.conj().T @ W_n_1.conj().T @ U_n_1)
-  return U_n
-
-
 def eval_braid(braid):
-  
+  """evaluates the unitary representation of the braids (left multiplied)"""
   res = gate_set[braid[0]]
   for i in range(1, len(braid)):
     res = gate_set[braid[i]] @ res
@@ -71,6 +55,7 @@ def square_mod(x):
 
 
 def norm(U, V):
+  """Schatten norm from Bon+05"""
   D = U.shape[0]
   U_t = np.conj(np.transpose(U))
   UtV = np.dot(U_t, V)
@@ -83,6 +68,7 @@ IMAGES = ["sigma1.png","sigma2.png","sigma1_inv.png", "sigma2_inv.png"]
 
 
 def concat(img1, img2):
+  """concatenates two images of matching shapes"""
   h1, w1 = img1.shape[:2]
   h2, w2 = img2.shape[:2]
   maxh = max(h1, h2)
@@ -94,6 +80,7 @@ def concat(img1, img2):
 
 
 def concatn(list):
+  """conatenates n images from the left"""
   output = None
   for i, img in enumerate(list):
     img = plt.imread(img)[:, :, :3]
@@ -105,6 +92,7 @@ def concatn(list):
 
 
 def draw(braid, fn=None):
+  """draws the braid symbolically"""
   images = []
   for b in (braid):
     images += [IMAGES[b]]
