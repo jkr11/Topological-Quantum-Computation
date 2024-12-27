@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.5.25)  27 DEC 2024 12:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.5.25)  27 DEC 2024 12:57
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/jkr/uni/sem5/adcqc/main.tex
-(/home/jkr/uni/sem5/adcqc/main.tex
+**/home/jkr/tqc_seminar/adcqc/main.tex
+(/home/jkr/tqc_seminar/adcqc/main.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -1402,15 +1402,7 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (./main.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                solovay_email
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+ (./main.bbl)
 Package biblatex Info: Reference section=0 on input line 9.
 Package biblatex Info: Reference segment=0 on input line 9.
 Package caption Info: Begin \AtBeginDocument code.
@@ -1593,12 +1585,8 @@ File: T_braid2.png Graphic file (type png)
 <use T_braid2.png>
 Package pdftex.def Info: T_braid2.png  used on input line 1090.
 (pdftex.def)             Requested size: 179.51799pt x 57.21411pt.
-
-
-LaTeX Warning: Citation 'solovay_email' on page 8 undefined on input line 1105.
-
-[8 <./H_braid.png> <./T_braid2.png>]
-<Cnot-weave-clean.png, id=250, 834.11626pt x 105.39375pt>
+ [8 <./H_braid.png> <./T_braid2.png>]
+<Cnot-weave-clean.png, id=252, 834.11626pt x 105.39375pt>
 File: Cnot-weave-clean.png Graphic file (type png)
 <use Cnot-weave-clean.png>
 Package pdftex.def Info: Cnot-weave-clean.png  used on input line 1123.
@@ -1625,18 +1613,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 60417 strings out of 476106
- 1370534 string characters out of 5793933
- 2295627 words of memory out of 5000000
- 81048 multiletter control sequences out of 15000+600000
+ 60420 strings out of 476106
+ 1370690 string characters out of 5793933
+ 2295655 words of memory out of 5000000
+ 81050 multiletter control sequences out of 15000+600000
  655379 words of font info for 247 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 104i,18n,110p,3276b,2010s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 104i,18n,110p,3279b,2010s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx8.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi5.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy5.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (11 pages, 589797 bytes).
+Output written on main.pdf (11 pages, 589460 bytes).
 PDF statistics:
- 508 PDF objects out of 1000 (max. 8388607)
- 411 compressed objects within 5 object streams
- 77 named destinations out of 1000 (max. 500000)
+ 510 PDF objects out of 1000 (max. 8388607)
+ 413 compressed objects within 5 object streams
+ 78 named destinations out of 1000 (max. 500000)
  49826 words of extra memory for PDF output out of 51595 (max. 10000000)
 

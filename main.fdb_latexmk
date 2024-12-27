@@ -1,14 +1,14 @@
 # Fdb version 4
-["biber main"] 1735300067.29874 "main.bcf" "main.bbl" "main" 1735300075.4366 0
-  "aqc.bib" 1735297462.38031 61648 ff2f1c0fe08a7be84c331954838b2674 ""
-  "main.bcf" 1735300075.24036 111295 af9bf68ae7ca94144e65f060fa660a28 "pdflatex"
+["biber main"] 1735300631.4262 "main.bcf" "main.bbl" "main" 1735300642.93041 0
+  "aqc.bib" 1735300631.20149 61756 8e0959fef69656a1cea2b997200a96a3 ""
+  "main.bcf" 1735300642.7337 111295 af9bf68ae7ca94144e65f060fa660a28 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1735300072.05889 "/home/jkr/uni/sem5/adcqc/main.tex" "main.pdf" "main" 1735300075.43699 0
+["pdflatex"] 1735300639.5365 "/home/jkr/tqc_seminar/adcqc/main.tex" "main.pdf" "main" 1735300642.93081 0
   "/etc/texmf/web2c/texmf.cnf" 1716649545.53339 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/jkr/uni/sem5/adcqc/main.tex" 1735300069.84224 53053 decdf772e5f74eeca9eb3e8a1884127d ""
+  "/home/jkr/tqc_seminar/adcqc/main.tex" 1735300636.91759 53053 decdf772e5f74eeca9eb3e8a1884127d ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1136768653 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -415,17 +415,17 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1716650320.4368 165012 f177baa1c39a3ebd62c3096a43521a0d ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1716650347 6831116 a9b8ede31343b259dac32181001ed946 ""
-  "Cnot-weave-clean.png" 1733336192.91828 21049 66c03e4b7262d9d5eac2781a0a3b6633 ""
-  "H_braid.png" 1733224229.46666 25360 3d03205ba3fad6892323b75ac5280d89 ""
-  "T_braid2.png" 1735258683.21422 26119 6217e86f10e883e9bd432670751a54eb ""
-  "_minted-main/C7C41F1159094AF23FF563ED5273F944541C68F80C6A6F06151AFD63BAE50EBC.pygtex" 1733760331.08043 80 dc03549d9ba89ce1555124cd8696fcd7 ""
-  "_minted-main/default.pygstyle" 1733760310.84698 6428 74aba51736a5bc6590f8f7dd413c6f27 ""
-  "header.tex" 1734536341.27556 7678 9c365d81f61aebfa646dc4077768d0d0 ""
-  "main.aux" 1735300075.22836 12432 0be5349c7f57926e907922cdd3653fd3 "pdflatex"
-  "main.bbl" 1735300068.55521 117577 ffd80686ebef9f2748ffcc5d26b1be40 "biber main"
-  "main.out" 1735300075.23236 2629 2d727aef5e774a16b6cc8eec7570f699 "pdflatex"
-  "main.run.xml" 1735300075.24136 2304 2cffb740e147639141a4f02327ce430f "pdflatex"
-  "main.tex" 1735300069.84224 53053 decdf772e5f74eeca9eb3e8a1884127d ""
+  "Cnot-weave-clean.png" 1735300219.37647 21049 66c03e4b7262d9d5eac2781a0a3b6633 ""
+  "H_braid.png" 1735300219.36947 25360 3d03205ba3fad6892323b75ac5280d89 ""
+  "T_braid2.png" 1735300219.37747 26119 6217e86f10e883e9bd432670751a54eb ""
+  "_minted-main/C7C41F1159094AF23FF563ED5273F944541C68F80C6A6F06151AFD63BAE50EBC.pygtex" 1735300219.37847 80 dc03549d9ba89ce1555124cd8696fcd7 ""
+  "_minted-main/default.pygstyle" 1735300219.37847 6428 74aba51736a5bc6590f8f7dd413c6f27 ""
+  "header.tex" 1735300219.37647 7678 9c365d81f61aebfa646dc4077768d0d0 ""
+  "main.aux" 1735300642.7217 12505 4825cd7b4b13a05e1856026f4adac553 "pdflatex"
+  "main.bbl" 1735300632.61251 118446 bbcfcee1d4a8481f3e8842e4fb2d3f21 "biber main"
+  "main.out" 1735300642.7257 2629 2d727aef5e774a16b6cc8eec7570f699 "pdflatex"
+  "main.run.xml" 1735300642.7347 2304 2cffb740e147639141a4f02327ce430f "pdflatex"
+  "main.tex" 1735300636.91759 53053 decdf772e5f74eeca9eb3e8a1884127d ""
   (generated)
   "main.aux"
   "main.bcf"

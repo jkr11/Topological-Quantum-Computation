@@ -2416,6 +2416,27 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevLett.51.2167
       \endverb
     \endentry
+    \entry{solovay_email}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=f48640301c2ee285cda30fb82c1ed107}{%
+           family={Solovay},
+           familyi={S\bibinitperiod},
+           given={Robert\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{f48640301c2ee285cda30fb82c1ed107}
+      \strng{fullhash}{f48640301c2ee285cda30fb82c1ed107}
+      \strng{bibnamehash}{f48640301c2ee285cda30fb82c1ed107}
+      \strng{authorbibnamehash}{f48640301c2ee285cda30fb82c1ed107}
+      \strng{authornamehash}{f48640301c2ee285cda30fb82c1ed107}
+      \strng{authorfullhash}{f48640301c2ee285cda30fb82c1ed107}
+      \field{labelalpha}{Sol95}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{howpublished}{email}
+      \field{year}{1995}
+    \endentry
     \entry{trebst_short_2008}{article}{}
       \name{author}{4}{}{%
         {{hash=ad5ab690973fbea48a10a5b4d5fba1a5}{%
@@ -2529,7 +2550,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{solovay_email}
 \endrefsection
 \endinput
 
