@@ -92,7 +92,7 @@ def concatn(list):
 
 
 def draw(braid, fn=None):
-  """draws the braid symbolically"""
+  """draws the braid symbolically, this is adapted from rouabah et al."""
   images = []
   for b in (braid):
     images += [IMAGES[b]]
