@@ -12,11 +12,12 @@
 
 \author{Jeremias Rieser \\
 Advisor: Martin Knudsen}
+\date{20.12.2024}
 
 \maketitle
 
 \begin{abstract}
-  In order to realize large scale quantum computers, traditional quantum computation suffers from decoherence and will require much more capable methods for error correction than already available \cite{sau_roadmap_2017}. Here we reiterate the ideas starting with \cite{kitaev_fault-tolerant_1997} and \cite{freedman_topological_2002} for building a topologically protected universal set of topological quantum gates using anabelian anyons in a $2 + 1$ dimensional spacetime, and thereby verify DiVincenzo's criteria allowing for universal computation.
+  In order to realize large scale quantum computers, traditional quantum computation suffers from decoherence and will require much more capable methods for error correction than already available \cite{sau_roadmap_2017}. Here we reiterate the ideas starting with \cite{kitaev_fault-tolerant_1997} and \cite{freedman_topological_2002} for building a topologically protected universal set of topological quantum gates using anabelian anyons in a $2 + 1$ dimensional spacetime, and show how they verify DiVincenzo's criteria allowing for universal computation.
 \end{abstract}
 \medskip
 %\tableofcontents
@@ -38,7 +39,7 @@ First, recall the criteria that constitute any classical universal quantum compu
   \item Measure the evolved state.
 \end{enumerate}
 
-For topological quantum computation, we claim there is a similar process when considering quasiparticles in $2$ dimensional space. The big idea is, that by {\it braiding} of the spacetime history of these quasiparticles, we construct a universal gate set. The advantage over classical quantum systems comes from topological protection: The "hidden" information of classical states is {\it topologically protected} as a nonlocal property of the spacetime history.
+For topological quantum computation, we claim there is a similar process when considering quasiparticles in $2$ dimensional space. The idea is, that by {\it braiding} the spacetime history of these quasiparticles, we construct a universal gate set. The advantage over classical quantum systems comes from topological protection: The "hidden" information of classical states is {\it topologically protected} as a nonlocal property of the spacetime history.
 
 \subsection{Strategy and outline}
 {\bf Outline:}
@@ -918,7 +919,7 @@ Further, as a relation between all our possible basis states, the $F$-move obeys
 
 For simple theories such as the Fibonacci anyon theory, the pentagon equation suffices to completely determine the $F$ matrix. Furthermore, the {\it MacLane coherence theorem} \cite{mac_lane_categories_1978} guarantees that the pentagon equation is the only "most complicated" constraint on the system. For computation, a purely algebraic expression of the pentagon equation is given as
 \[
-   \left[ F^{abl}_{g} \right]_{e}^{k} \left[ F^{ecd}_{g} \right]_{f}^{l} = \sum_{i} \left[ F^{bcd}_{k} \right]_{h}^{l} \left[ F^{afd}_{g} \right]_{f}^{k} \left[ F^{abc}_{f} \right]_{e}^{h}.
+   \left[ F^{abl}_{g} \right]_{e}^{k} \left[ F^{ecd}_{g} \right]_{f}^{l} = \sum_{h} \left[ F^{bcd}_{k} \right]_{h}^{l} \left[ F^{afd}_{g} \right]_{f}^{k} \left[ F^{abc}_{f} \right]_{e}^{h}.
 \]
 
 By direct computation over the pentagon equation we obtain the $F$ matrix for the Fibonacci theory as 
@@ -1074,7 +1075,7 @@ To check this error, we define a norm for unitary $U,V \in \U(D)$ as
 
 We can start out with a brute force approach for calculating the two single qubit gates for braids with length at most $n$. 
 
-We define a procedure \mintinline{python}{find_gate} with a target matrix $U_{target} \in \U(2)$, that simply enumerates all $4^n$ possible braids and chooses the best approximation according to \cref{eq:norm}. This found the following braids:
+We define a simple procedure with a target matrix $U_{target} \in \U(2)$, that simply enumerates all $4^n$ possible braids and chooses the best approximation according to \cref{eq:norm}. This found the following braids:
 \setcounter{figure}{2}
 \begin{figure}[h!]
   \centering
