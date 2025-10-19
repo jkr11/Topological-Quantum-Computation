@@ -1,5 +1,6 @@
 \documentclass{article}
 \input{header}
+\pgfplotsset{compat=1.18}
 \addbibresource{aqc.bib}
 
 \crefformat{section}{\S#2#1#3} % see manual of cleveref, section 8.2.1
@@ -140,7 +141,7 @@ In practice, anyons are mostly seen as (topological) defects propagated by the g
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Perhaps this property becomes even more obvious when we now view the time evolutions process of a pair (or really any number) of anyons, specifically in $2 + 1$ dimensional space-time, so $2$ spacial dimensions view across continuous time intervals. A {\it worldline} is the path traced through time by a single particle living in $2$d space. Generally, in every diagram presented in this paper, the direction of time goes downwards. A group of worldlines is known as a {\it braid}. Generally you can consider a braid as having fixed start and end points, and they can be transformed continuously as long as there is no intersection of braids. Additionally, we don't allow back movements (even if topologically equivalent) as one would have to go back in time.
 
-\begin{figure}[h]
+\begin{figure}[ht]
   \centering
   \begin{minipage}{0.3\textwidth}
     \begin{tikzpicture}
@@ -699,7 +700,7 @@ To the fusion of multiple anyons $a^{\otimes n}$ we assign $V^{a^{\otimes n}}_c 
 \[
   {V}^{a^{\otimes n}}_{c} = \bigoplus_{c_{1}, \ldots , c_{n-2}  } V^{a_1 a_2}_{{\color{red}c_1}} \otimes V^{{\color{red}c_1} a_3}_{{\color{blue}c_2}} \otimes V^{{\color{blue}c_2} a_4}_{c_3} \otimes \ldots \otimes V^{{c_{n-3}} a_{n-1}}_{\color{orange}c_{n-2}} \otimes V^{{\color{orange}c_{n-2}} a_n}_{c}.
 \] (Formally we are operating within a {\it monoidal tensor category} \cite{rowell_mathematics_2017}. These are naturally equipped with the pentagon and hexagon relations in \cref{grp:pentagon} \cite{gelaki_tensor_2015}.) Note that for every fusion space $V^{ab}_{c}$ there exists its dual $V^{c}_{ab}$, called a {\it splitting space}. Splitting occurs, when we lift anyons from a vacuum. To verify that $V^{ab}_{c}$ is an orthonormal basis, we can again use the graphical calculus. Note that we can identify the fusion space with bras and their "time reversal" splitting spaces as a ket. We can immediately verify usual Hilbert space properties:
-\begin{figure}[h]
+\begin{figure}[ht]
   \centering
     \begin{minipage}{0.45\textwidth}
       \centering
@@ -1119,7 +1120,7 @@ While topologically protected from decoherence, there are still issues with this
 
 Finding single-qubit braids seems to be relatively simple, even using brute force search. We only have to search a $3$ dimensional space, and as the braids stay within their respective qubit, no leakage can occur. Even when we turn to two qubits, if we don't cross between the qubits, this is relatively safe and easy to compiler. However, once we allow for interqubit braids, we have to deal with the leakage problem to the noncomputational state. Furthermore, there are 87 free parameters in the $6$ particle subspace, which makes compiling very expensive \cite{hormozi_topological_2007}. To alleviate some of these problems, \cite{simon_topological_2006} introduced the concept of {\it weaving}, where we consider the subset of the braid group on $n$ particles $B_n$, and choose only one of these particles to be "mobile", while the other $n-1$ stay fixed. It was shown that this (as a subset of an already universal theory) is also universal. This has the added advantage, that for a hypothetical implementation in a laboratory setting, we only have to control one of the particles. For an example of a weave (and the desired $CNOT$ gate), see \cref{fig:weave}. If the upper qubit is $\vert 0 \rangle$, the inner fusion channel is $1$ and therefore the effect of weaving this vacuum group through the lower braids is nil. However, if the qubit is $\vert 1 \rangle$, the effect is as given.
 
-\begin{figure}[h]
+\begin{figure}[ht]
   \centering
   \includegraphics[width=\textwidth]{images/Cnot-weave-clean.png}
   \caption{A CNOT weave. From \cite{simon_topological_2006}}.
